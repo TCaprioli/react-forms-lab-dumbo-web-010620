@@ -15,7 +15,7 @@ class LoginForm extends React.Component {
     username !== "" && password !== "" ?
     this.props.handleLogin({username,password})
     :
-    console.log('nope')
+    null
   }
 
   handleLogChange = event =>{
